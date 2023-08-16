@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav id="nav">
+                <ul class="row justify-content align-item">
+                        <div class="logo">
+                            <img src="img/Kashish-removebg-preview.png" alt="">
+                        </div>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./pages/product.html">Product</a></li>
+                        <li><a href="./pages/cart.html">cart</a></li>
+                        <li><a href="./pages/signup.html">Sign Up</a></li>
+                        <li><a href="./pages/signin.html">Sign In</a></li>
+                    </ul>
+                </nav>
+        </div>
+    </header>
+    <!-- login section  -->
+    <div class="login-form">
+        <h1>Welcome To Our Page</h1>
+        <h2>Login</h2>
+        <form id="log-form">
+            <label for="username">Enter Username or Email:</label>
+            <input id="username" type="text" placeholder="Enter Username">
+            <p id="useremailalert"></p><br><br>
+            <label for="password">Enter Your Password:</label>
+            <input type="password" id="password" placeholder="Enter Password">
+            <p id="userpassalert"></p><br><br>
+            <button type="submit" class="Playfair" id="submit">Login</button>
+            <h5>Don't Have an Account ? <a href="/pages/signup.html">create Account</a></h5>
+        </form>
+    </div>
+
+    <script src="/javascript/signin.js"></script>
+</body>
+
+</html>
