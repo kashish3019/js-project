@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up</title>
-    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="/style/style.css">
 </head>
 <body>
     <header>
@@ -12,25 +12,28 @@
             <nav id="nav">
                 <ul class="row justify-content align-item">
                         <div class="logo">
-                            <img src="img/Kashish-removebg-preview.png" alt="">
+                            <img src="/img/Kashish-removebg-preview.png" alt="">
                         </div>
-                        <li><a href="./index.html">Home</a></li>
-                        <li><a href="./pages/product.html">Product</a></li>
-                        <li><a href="./pages/cart.html">cart</a></li>
-                        <li><a href="./pages/signup.html">Sign Up</a></li>
-                        <li><a href="./pages/signin.html">Sign In</a></li>
+                        <li><a href="/index.html">Home</a></li>
+                        <li><a href="/pages/product.html">Product</a></li>
+                        <li><a href="/pages/cart.html">cart</a></li>
+                        <li><a href="/pages/signup.html">Sign Up</a></li>
+                        <li><a href="/pages/signin.html">Sign In</a></li>
                     </ul>
                 </nav>
         </div>
     </header>
     <form id="form">
-        <input type="text" placeholder="Enter Name" id="name">
-        <p id="n_err"></p>
-        <input type="email" placeholder="Enter email" id="email">
-        <p id="e_err"></p>
-        <input type="password" placeholder="Enter password" id="password">
-        <p id="p_err"></p>
-        <input type="submit" value="sign-up">
+        <label for="name">Enter Your Name:</label>
+        <input type="text" placeholder="Name" id="name">
+        <p id="n_err"></p><br>
+        <label for="email">Enter Your Email:</label>
+        <input type="email" placeholder="Email" id="email">
+        <p id="e_err"></p><br>
+        <label for="password">Enter Your Password:</label>
+        <input type="password" placeholder="Password" id="password">
+        <p id="p_err"></p><br>
+        <input type="submit" value="Sign Up">
     </form>
 </body>
 <script src="/javascript/signup.js"></script>

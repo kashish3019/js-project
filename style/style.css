@@ -1,26 +1,32 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-.container{
+
+.container {
     max-width: 1140px;
     margin: auto;
 }
-.row{
+
+.row {
     display: flex;
     flex-wrap: wrap;
 }
-a{
+
+a {
     text-decoration: none;
 }
+
 ul,
 ol {
     list-style: none;
 }
+
 img {
     width: 100%;
 }
+
 .justify-content {
     justify-content: space-between;
 }
@@ -30,13 +36,122 @@ img {
 }
 
 /* header section  */
-header{
+header {
     padding-top: 10px;
-    box-shadow: 0px 0px 2px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
 }
-header nav a{
+
+header nav a {
     color: brown;
 }
-header .logo img{
+
+header .logo img {
     width: 150px;
 }
+/* login signin page  */
+.login-form {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 50px auto;
+    max-width: 400px;
+}
+
+.login-form h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.login-form h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.login-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+.login-form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: #555;
+}
+
+.login-form h5 {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.login-form a {
+    color: #333;
+    text-decoration: none;
+}
+
+.login-form a:hover {
+    text-decoration: underline;
+}
+
+/* signup page  */
+#form {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#form input[type="text"],
+#form input[type="email"],
+#form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+#form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#form input[type="submit"]:hover {
+    background-color: #555;
+}
+
+#form p {
+    color: red;
+    font-size: 12px;
+    margin: 0;
+}
+
+#form p#n_err,
+#form p#e_err,
+#form p#p_err {
+    text-align: center;
+}
+
