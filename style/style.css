@@ -157,3 +157,47 @@ header .logo img {
     text-align: center;
 }
 
+/* product page  */
+#parent-box{
+    display: flex;
+}
+#box1{
+    border: 1px solid rgba(128, 128, 128, 0.314);
+    width: 10%;
+    height: 100vh;
+}
+#box2 div img{
+    width: 200px;
+    height: 200px;
+}
+#box2{
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    width: 90%;
+    height: 100vh;
+    overflow: scroll;
+}
+#box2 div {
+    text-align: center;
+    border: 1px solid rgba(128, 128, 128, 0.314);
+    border-radius: 20px;
+    padding: 20px;
+}
+#box2 div button{
+    background-color:rgba(165, 42, 42, 0.646);
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+#box1 button{
+    background-color:rgba(165, 42, 42, 0.646);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
