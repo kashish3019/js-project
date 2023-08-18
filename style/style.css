@@ -34,7 +34,9 @@ img {
 .align-item {
     align-items: center;
 }
-
+header nav a{
+    padding-left: 40px;
+}
 /* header section  */
 header {
     padding-top: 10px;
