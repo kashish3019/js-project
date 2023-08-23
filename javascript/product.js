@@ -24,6 +24,20 @@ const display = (data) => {
     const rating = document.createElement("h4");
     rating.textContent = "* ".repeat(item.rating.rate);
 
+    if(item.rating.rate>4)
+        {
+            rating.innerHTML="* * * * *"
+            rating.style.color="green"
+        }
+        else if(item.rating.rate<=4 && item.rating.rate>=3)
+        {
+            rating.innerHTML="* * * *"
+            rating.style.color="chocolate"   
+        }
+        else{
+            rating.innerHTML="* *"
+            rating.style.color="red" 
+        }
     const btn1 = document.createElement("button");
     btn1.textContent = "Add to Cart";
     btn1.classList.add("btn1");
