@@ -23,9 +23,15 @@
       "email": "kbpatel21@gmail.com",
       "password": "kashish",
       "id": 4
+    },
+    {
+      "name": "kashish",
+      "email": "veerdpatel261@gmail.com",
+      "password": "veer123",
+      "id": 5
     }
   ],
-  "products":[
+  "products": [
     {
       "id": 1,
       "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",

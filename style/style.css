@@ -16,6 +16,8 @@
 
 a {
     text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
 }
 
 ul,
@@ -44,7 +46,7 @@ header {
 }
 
 header nav a {
-    color: brown;
+    color: darkblue;
 }
 
 header .logo img {
@@ -52,7 +54,7 @@ header .logo img {
 }
 /* login signin page  */
 .login-form {
-    background-color: #fff;
+    text-align: center;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -63,9 +65,11 @@ header .logo img {
 .login-form h1 {
     font-size: 24px;
     margin-bottom: 10px;
+    
 }
 
 .login-form h2 {
+    color:darkblue;
     font-size: 18px;
     margin-bottom: 20px;
 }
@@ -74,6 +78,7 @@ header .logo img {
     display: block;
     font-weight: bold;
     margin-bottom: 5px;
+    color:darkblue;
 }
 
 .login-form input[type="text"],
@@ -86,7 +91,7 @@ header .logo img {
 }
 
 .login-form button {
-    background-color: #333;
+    background-color: darkblue;
     color: #fff;
     border: none;
     border-radius: 3px;
@@ -95,7 +100,7 @@ header .logo img {
 }
 
 .login-form button:hover {
-    background-color: #555;
+    background-color:rgba(0, 0, 139, 0.421);
 }
 
 .login-form h5 {
@@ -104,7 +109,7 @@ header .logo img {
 }
 
 .login-form a {
-    color: #333;
+    color: darkblue;
     text-decoration: none;
 }
 
@@ -114,6 +119,7 @@ header .logo img {
 
 /* signup page  */
 #form {
+    text-align: center;
     max-width: 400px;
     margin: 50px auto;
     padding: 20px;
@@ -132,8 +138,12 @@ header .logo img {
     margin-bottom: 10px;
 }
 
+#form label,h2{
+    color: darkblue;
+
+}
 #form input[type="submit"] {
-    background-color: #333;
+    background-color: darkblue;
     color: #fff;
     border: none;
     border-radius: 3px;
@@ -142,7 +152,7 @@ header .logo img {
 }
 
 #form input[type="submit"]:hover {
-    background-color: #555;
+    background-color: rgba(0, 0, 139, 0.371);
 }
 
 #form p {
@@ -163,7 +173,7 @@ header .logo img {
 }
 #box1{
     border: 1px solid rgba(128, 128, 128, 0.314);
-    width: 10%;
+    width: 12%;
     height: 100vh;
 }
 #box2 div img{
@@ -175,7 +185,7 @@ header .logo img {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 30px;
-    width: 90%;
+    width: 88%;
     height: 100vh;
     overflow: scroll;
 }
@@ -186,18 +196,134 @@ header .logo img {
     padding: 20px;
 }
 #box2 div button{
-    background-color:rgba(165, 42, 42, 0.646);
+    background-color:darkblue;
     margin: 20px;
     padding: 10px;
     border-radius: 5px;
     font-size: 20px;
+    color: white;
 }
 #box1 button{
-    background-color:rgba(165, 42, 42, 0.646);
+    background-color:darkblue;
+    width: 150px;
     padding: 10px;
     border-radius: 5px;
     font-size: 20px;
     display: block;
     margin: auto;
     margin-top: 20px;
+    color: white;
+}
+
+/* cart pages  */
+
+
+#cartpage div{
+    padding: 20px;
+}
+
+#cartpage{
+    display: block;
+    width: 70%;
+}
+
+.maindiv{
+   box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.9);
+    display: flex;
+    position: relative;
+}
+#other{
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 139, 0.516);
+    width: 40%;
+}
+.maindiv2{
+    margin: 30px;
+}
+.maindiv2 label{
+    padding-bottom: 20px;
+}
+
+#cartpage h3{
+    width: 300px;
+    font-size: 20px;
+    font-family: 'Courgette', cursive;
+    font-family: 'Signika Negative', sans-serif;
+}
+#cartpage img{
+    width: 200px;
+    height: 200px;
+}
+
+#cartpage button{
+    padding: 5px 10px;
+}
+#cartpage span{
+    padding: 5px 10px;
+    border: 1px solid black;
+}
+#price{
+    margin: 30px;
+    font-family: 'Courgette', cursive;
+    font-family: 'Signika Negative', sans-serif;
+    color: white;
+    font-size: 20px;
+}
+.apply{
+    margin: 10px;
+    padding: 5px 30px;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    border: 0;
+    background-color: rgba(0, 0, 0, 0.438);
+    font-family: 'Courgette', cursive;
+    font-family: 'Signika Negative', sans-serif;
+
+}
+
+.promocode{
+    padding: 5px 30px;
+
+}
+label {
+    padding-right: 10px;
+    font-family: 'Courgette', cursive;
+    font-family: 'Signika Negative', sans-serif;
+    color: white;
+    font-size: 20px;
+}
+.price1{
+    font-size: 20px;
+    position: absolute;
+    right : -30px;
+}
+.code{
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+
+.texts{
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 50%;
+}
+
+.plusminse{
+    position: absolute;
+    right: 50px;
+    top: 40%;
+}
+
+section{
+    display: flex;
+}
+
+.disprice{
+    color: white;
+    font-family: 'Courgette', cursive;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 20px;
+    margin-top: 30px;
 }
